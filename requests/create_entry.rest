@@ -1,7 +1,7 @@
-POST http://localhost:3001/api/persons
+POST https://lit-peak-68900.herokuapp.com/api/persons
 Content-Type: application/json
 
 {
     "name": "eli",
-    "number": "(253) 345"
+    "number": "(253) 3455555555555555555555555555555555555555"
 }
