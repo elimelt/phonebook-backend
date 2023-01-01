@@ -4,11 +4,12 @@ const cors = require('cors')
 const app = express()
 
 app.use(cors())
+app.use(express.json())
+app.use(express.static('build'))
 // morgan.token('content', function getId (req) {
 //     return JSON.stringify(req.body)
 // })
-const format = ':method :url :status :total-time[2] :content'
-app.use(express.json())
+//const format = ':method :url :status :total-time[2] :content'
 //app.use(morgan(format))
 
 let persons = [

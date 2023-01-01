@@ -1,1 +1,1 @@
-DELETE http://localhost:3001/api/persons/2
+DELETE https://lit-peak-68900.herokuapp.com/api/persons/173
